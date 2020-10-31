@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Abacus Training!</title>
+	<script src="index.js"></script>
+	<style type="text/css">
+		#box-model
+		{
+			margin: 10px;
+			border: 2px solid black;
+			background-color: lightgrey;
+			width: 10%;
+			float: left;
+		}
+		#boxes
+		{
+			margin: 5px;
+		}
+		.box-part
+		{
+			margin-left: 50%;
+		}
+		.status
+		{
+			color: red;
+			margin-left: 40%;
+		}
+		.ans
+		{
+			width: 75%;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to Abacus Training!</h1>
+	<h2 id="score"></h2>
+	<select id="select">
+		<option value="5">5</option>
+		<option value="10">10</option>
+		<option value="15">15</option>
+		<option value="20">20</option>
+		<option value="50">50</option>
+		<option value="100">100</option>
+		<option value="1000">1000</option>
+		<option value="10000">10000</option>
+	</select>
+	<button id="retest">Retake test!</button>
+	<button id="submit">Submit test!</button>
+	<div id="boxes">
+		<div id="box-model">
+			<div id="s1-status" class="status">wrong</div>
+			<div id="s1" class="box-part"></div>
+			<div id="s1" class="box-part"></div>
+			<div id="s1" class="box-part"></div>
+			<div id="s1" class="box-part"></div>
+			<div id="s1" class="box-part"></div>
+			<input type="text" id="s1-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s2-status" class="status">wrong</div>
+			<div id="s2" class="box-part"></div>
+			<div id="s2" class="box-part"></div>
+			<div id="s2" class="box-part"></div>
+			<div id="s2" class="box-part"></div>
+			<div id="s2" class="box-part"></div>
+			<input type="text" id="s2-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s3-status" class="status">wrong</div>
+			<div id="s3" class="box-part"></div>
+			<div id="s3" class="box-part"></div>
+			<div id="s3" class="box-part"></div>
+			<div id="s3" class="box-part"></div>
+			<div id="s3" class="box-part"></div>
+			<input type="text" id="s3-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s4-status" class="status">wrong</div>
+			<div id="s4" class="box-part"></div>
+			<div id="s4" class="box-part"></div>
+			<div id="s4" class="box-part"></div>
+			<div id="s4" class="box-part"></div>
+			<div id="s4" class="box-part"></div>
+			<input type="text" id="s4-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s5-status" class="status">wrong</div>
+			<div id="s5" class="box-part"></div>
+			<div id="s5" class="box-part"></div>
+			<div id="s5" class="box-part"></div>
+			<div id="s5" class="box-part"></div>
+			<div id="s5" class="box-part"></div>
+			<input type="text" id="s5-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s6-status" class="status">wrong</div>
+			<div id="s6" class="box-part"></div>
+			<div id="s6" class="box-part"></div>
+			<div id="s6" class="box-part"></div>
+			<div id="s6" class="box-part"></div>
+			<div id="s6" class="box-part"></div>
+			<input type="text" id="s6-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s7-status" class="status">wrong</div>
+			<div id="s7" class="box-part"></div>
+			<div id="s7" class="box-part"></div>
+			<div id="s7" class="box-part"></div>
+			<div id="s7" class="box-part"></div>
+			<div id="s7" class="box-part"></div>
+			<input type="text" id="s7-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s8-status" class="status">wrong</div>
+			<div id="s8" class="box-part"></div>
+			<div id="s8" class="box-part"></div>
+			<div id="s8" class="box-part"></div>
+			<div id="s8" class="box-part"></div>
+			<div id="s8" class="box-part"></div>
+			<input type="text" id="s8-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s9-status" class="status">wrong</div>
+			<div id="s9" class="box-part"></div>
+			<div id="s9" class="box-part"></div>
+			<div id="s9" class="box-part"></div>
+			<div id="s9" class="box-part"></div>
+			<div id="s9" class="box-part"></div>
+			<input type="text" id="s9-ans" class="ans" value="0">
+		</div>
+		<div id="box-model">
+			<div id="s10-status" class="status">wrong</div>
+			<div id="s10" class="box-part"></div>
+			<div id="s10" class="box-part"></div>
+			<div id="s10" class="box-part"></div>
+			<div id="s10" class="box-part"></div>
+			<div id="s10" class="box-part"></div>
+			<input type="text" id="s10-ans" class="ans" value="0">
+		</div>
+	</div>
+</body>
+</html>
