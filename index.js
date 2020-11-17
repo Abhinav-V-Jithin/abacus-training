@@ -6,7 +6,7 @@ function random(n)
 function TakeTest()
 {
 	document.querySelectorAll('.status').forEach(headline =>	{
-		headline.value="wrong";
+		headline.innerHTML = "wrong";
 	});
 	document.querySelectorAll('.box-part').forEach(part =>
 	{
