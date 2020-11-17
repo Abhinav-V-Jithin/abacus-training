@@ -7,6 +7,7 @@ function TakeTest()
 {
 	document.querySelectorAll('.status').forEach(headline =>	{
 		headline.innerHTML = "wrong";
+		headline.style.color = "red";
 	});
 	document.querySelectorAll('.box-part').forEach(part =>
 	{
