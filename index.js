@@ -5,6 +5,9 @@ function random(n)
 
 function TakeTest()
 {
+	document.querySelectorAll('.status').forEach(headline =>	{
+		headline.value="wrong";
+	});
 	document.querySelectorAll('.box-part').forEach(part =>
 	{
 		part.innerHTML = random(parseInt(document.querySelector('#select').value));
