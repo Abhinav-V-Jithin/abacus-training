@@ -123,6 +123,7 @@ function TakeTest()
 			}
 		});
 		document.querySelector('#score').innerHTML = `your total score: ${score}/10`;
+		console.log(`s1=${s1}\ns2=${s2}\ns3=${s3}`);
 	};
 }
 document.addEventListener('DOMContentLoaded', () =>
