@@ -1,5 +1,12 @@
 function random(n)
 {
+	let plus = false;
+	if(Math.round(Math.random()) == 1)
+	{
+		plus = true;
+	}
+	if(plus == false)
+		return(-(Math.round(Math.random() * n)));
 	return(Math.round(Math.random() * n));
 }
 
