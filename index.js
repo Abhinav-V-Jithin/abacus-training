@@ -1,7 +1,7 @@
 function random(n)
 {
 	let plus = false;
-	if(Math.round(Math.random()) == 1)
+	if(Math.round(Math.random() * 5 + 1) > 1)
 	{
 		plus = true;
 	}
